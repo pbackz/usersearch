@@ -1,0 +1,3 @@
+[submodule "gosearch"]
+	path = gosearch
+	url = https://github.com/ibnaleem/gosearch

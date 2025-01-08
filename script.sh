@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
+cd gosearch && export PATH=$PATH:$(pwd) && cd ..
 npm install
-mkdir gosearch && cp -a go.mod go.sum gosearch.go data.json gosearch/
-go build && PATH=$PATH:$(pwd)
