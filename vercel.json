@@ -3,9 +3,8 @@
     "build": {
     "env": {
       "GO_BUILD_FLAGS": "-ldflags '-s -w'"
-    },
+    }},
     "files": [
       "bin/gosearch"
-    ]  
-  }
+    ]
 }

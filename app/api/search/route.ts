@@ -13,7 +13,7 @@ export async function POST(req: Request) {
     const { query } = await req.json()
     
     // Execute gosearch binary with the query
-    const { stdout, stderr } = await execAsync(`gosearch ${query}`)
+    const { stdout, stderr } = await execAsync(`bin/gosearch ${query}`)
     
     if (stderr) {
       return new NextResponse(stderr, { status: 500 })
