@@ -1,0 +1,1411 @@
+{
+    "websites": [
+      {
+        "name": "Instagram",
+        "base_url": "https://instagram.com/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>Page not found • Instagram</title>"
+      },
+      {
+        "name": "Twitter/X",
+        "base_url": "https://twitter.com/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "GitHub",
+        "base_url": "https://github.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Reddit",
+        "base_url": "https://www.reddit.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>Reddit - Dive into anything</title>"
+      },
+      {
+        "name": "Facebook",
+        "base_url": "https://www.facebook.com/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>Facebook</title>"
+      },
+      {
+        "name": "YouTube",
+        "base_url": "https://www.youtube.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "TikTok",
+        "base_url": "https://www.tiktok.com/@{}",
+        "follow_redirects": true,
+        "errorType": "profilePresence",
+        "errorMsg": "shareMeta"
+      },
+      {
+        "name": "About Me",
+        "base_url": "https://about.me/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Independent Academia",
+        "base_url": "https://independent.academia.edu/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Airbit",
+        "base_url": "https://airbit.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Airliners",
+        "base_url": "https://www.airliners.net/user/{}/profile/photos",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Duolingo",
+        "base_url": "https://www.duolingo.com/profile/{}",
+        "url_probe": "https://www.duolingo.com/2017-06-30/users?username={}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "{\"users\":[]}"
+      },
+      {
+        "name": "Pinterest",
+        "base_url": "https://www.pinterest.com/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title></title>"
+      },
+      {
+        "name": "VSCO",
+        "base_url": "https://vsco.co/{}/gallery",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Snapchat",
+        "base_url": "https://www.snapchat.com/add/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Threads",
+        "base_url": "https://www.threads.net/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>Threads</title>"
+      },
+      {
+        "name": "Tumblr",
+        "base_url": "https://www.tumblr.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Keybase",
+        "base_url": "https://keybase.io/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Wattpad",
+        "base_url": "https://www.wattpad.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Mastodon Social",
+        "base_url": "https://mastodon.social/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "MSTDN Social",
+        "base_url": "https://mstdn.social/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Mas.to",
+        "base_url": "https://mas.to/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Mastodon World",
+        "base_url": "https://mastodon.world/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Fosstodon",
+        "base_url": "https://fosstodon.org/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Hachyderm",
+        "base_url": "https://hachyderm.io/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Vivaldi Social",
+        "base_url": "https://social.vivaldi.net/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Techhub Social",
+        "base_url": "https://techhub.social/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Wakatime",
+        "base_url": "https://wakatime.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Twitch",
+        "base_url": "https://twitch.tv/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<meta property='og:description' content='Twitch is the world's leading video platform and community for gamers.'>"
+      },
+      {
+        "name": "Rumble",
+        "base_url": "https://rumble.com/c/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Kick",
+        "base_url": "https://kick.com/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "Yandex Dzen",
+        "base_url": "https://dzen.ru/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404,
+        "cookies": [
+          {
+            "name": "zen_sso_checked",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "YVision KZ",
+        "base_url": "https://yvision.kz/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Giphy",
+        "base_url": "https://giphy.com/channel/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Bluesky",
+        "base_url": "https://bsky.app/profile/{}.bsky.social",
+        "url_probe": "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor={}.bsky.social",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "{\"error\":\"InvalidRequest\",\"message\":\"Profile not found\"}"
+      },
+      {
+        "name": "9GAG",
+        "base_url": "https://9gag.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404,
+        "cookies": [
+          {
+            "name": "ts1",
+            "value": "4b134fab9439a52a1a8d1789265b0404523ccb08"
+          }
+        ]
+      },
+      {
+        "name": "Flickr",
+        "base_url": "https://flickr.com/photos/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Behance",
+        "base_url": "https://behance.net/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Buy Me a Coffee",
+        "base_url": "https://buymeacoffee.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Ko-fi",
+        "base_url": "https://ko-fi.com/{}",
+        "follow_redirects": false,
+        "errorType": "status_code",
+        "errorCode": 302
+      },
+      {
+        "name": "Tinder",
+        "base_url": "https://tinder.com/@{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title data-react-helmet=\"true\">Tinder | Dating, Make Friends &amp; Meet New People</title>"
+      },
+      {
+        "name": "LinkedIn",
+        "base_url": "https://www.linkedin.com/in/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 999
+      },
+      {
+        "name": "Vimeo",
+        "base_url": "https://vimeo.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Patreon",
+        "base_url": "https://www.patreon.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Substack",
+        "base_url": "https://{}.substack.com",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Medium",
+        "base_url": "https://medium.com/@{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title data-rh=\"true\">Medium</title>"
+      },
+      {
+        "name": "DEV Community",
+        "base_url": "https://dev.to/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Hashnode",
+        "base_url": "https://hashnode.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Spotify",
+        "base_url": "https://open.spotify.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Clubhouse",
+        "base_url": "https://www.joinclubhouse.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Foursquare",
+        "base_url": "https://foursquare.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "SoundCloud",
+        "base_url": "https://soundcloud.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Vero",
+        "base_url": "https://vero.co/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "_not-found-page-container_onczy_1"
+      },
+      {
+        "name": "Figma",
+        "base_url": "https://www.figma.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 202
+      },
+      {
+        "name": "Linktree",
+        "base_url": "https://www.linktr.ee/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "\"statusCode\":404"
+      },
+      {
+        "name": "Beacons.ai",
+        "base_url": "https://beacons.ai/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 403
+      },
+      {
+        "name": "Bio.link",
+        "base_url": "https://bio.link/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Milkshake",
+        "base_url": "https://msha.ke/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Snipfeed",
+        "base_url": "https://snipfeed.co/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Ayo.so",
+        "base_url": "https://ayo.so/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Carrd",
+        "base_url": "https://{}.carrd.co",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Steam",
+        "base_url": "https://steamcommunity.com/id/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>Steam Community :: Error</title>"
+      },
+      {
+        "name": "Dev Community",
+        "base_url": "https://dev.to/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Daily.dev",
+        "base_url": "https://app.daily.dev/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<p class=\"text-text-tertiary typo-callout\">You're not supposed to be here.</p>"
+      },
+      {
+        "name": "HackerNews",
+        "base_url": "https://news.ycombinator.com/user?id={}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "No such user."
+      },
+      {
+        "name": "HackTheBox Forum",
+        "base_url": "https://forum.hackthebox.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "1337x.to",
+        "base_url": "https://www.1337x.to/user/{}/",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<p> Bad Username.</p>"
+      },
+      {
+        "name": "7Cups",
+        "base_url": "https://www.7cups.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "8Tracks",
+        "base_url": "https://8tracks.com/{}",
+        "url_probe": "https://8tracks.com/users/check_username?login={}&format=jsonh",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "{\"available\":true}"
+      },
+      {
+        "name": "All My Links",
+        "base_url": "https://allmylinks.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Aniworld.to",
+        "base_url": "https://aniworld.to/user/profil/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>Profil | AniWorld.to - Animes gratis legal online ansehen</title>"
+      },
+      {
+        "name": "Anilist",
+        "base_url": "https://anilist.co/user/{}/",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>AniList</title>"
+      },
+      {
+        "name": "Apple Developers",
+        "base_url": "https://developer.apple.com/forums/profile/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Apple Discussions",
+        "base_url": "https://discussions.apple.com/profile/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Archive Of Our Own (AO3)",
+        "base_url": "https://archiveofourown.org/users/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Telegram",
+        "base_url": "https://t.me/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "If you have <strong>Telegram</strong>, you can contact"
+      },
+      {
+        "name": "LastFM",
+        "base_url": "https://last.fm/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Chess",
+        "base_url": "https://www.chess.com/member/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Lichess",
+        "base_url": "https://lichess.org/@/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Codecademy",
+        "base_url": "https://www.codecademy.com/profiles/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>Profile Not Found | Codecademy</title>"
+      },
+      {
+        "name": "Gitlab",
+        "base_url": "https://gitlab.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 403
+      },
+      {
+        "name": "Disqus",
+        "base_url": "https://disqus.com/by/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Docker Hub",
+        "base_url": "https://hub.docker.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Kali Linux Forums",
+        "base_url": "https://forums.kali.org/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Imgur",
+        "base_url": "https://imgur.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 200
+      },
+      {
+        "name": "GameFAQs Community",
+        "base_url": "https://gamefaqs.gamespot.com/community/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "KASKUS",
+        "base_url": "https://www.kaskus.co.id/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "TripAdvisor Forums",
+        "base_url": "https://www.tripadvisor.com/Profile/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Lobsters",
+        "base_url": "https://lobste.rs/~{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "PHUCKS",
+        "base_url": "https://phuks.co/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Hubski",
+        "base_url": "https://hubski.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<a href=\"/\">No such user.</a>"
+      },
+      {
+        "name": "Tildes",
+        "base_url": "https://tildes.net/~{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Leetcode",
+        "base_url": "https://leetcode.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "SourceForge",
+        "base_url": "https://sourceforge.net/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Bitwarden Forums",
+        "base_url": "https://community.bitwarden.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Blipfoto",
+        "base_url": "https://www.blipfoto.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Archive.org",
+        "base_url": "https://archive.org/details/@{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 200
+      },
+      {
+        "name": "ArtStation",
+        "base_url": "https://www.artstation.com/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "Asciinema",
+        "base_url": "https://asciinema.org/~{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Fedora Discussion",
+        "base_url": "https://discussion.fedoraproject.org/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Atcoder",
+        "base_url": "https://atcoder.jp/users/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Audio Jungle",
+        "base_url": "https://audiojungle.net/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Autofrage",
+        "base_url": "https://www.autofrage.net/nutzer/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Avizo",
+        "base_url": "https://www.avizo.cz/{}",
+        "follow_redirects": false,
+        "errorType": "status_code",
+        "errorCode": 301
+      },
+      {
+        "name": "BOOTH",
+        "base_url": "https://{}.booth.pm/",
+        "follow_redirects": false,
+        "errorType": "status_code",
+        "errorCode": 302
+      },
+      {
+        "name": "Bandcamp",
+        "base_url": "https://www.bandcamp.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Blogger",
+        "base_url": "https://{}.blogspot.com",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "BoardGameGeek",
+        "base_url": "https://boardgamegeek.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "User not found"
+      },
+      {
+        "name": "Bookcrossing",
+        "base_url": "https://www.bookcrossing.com/mybookshelf/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Brave Community",
+        "base_url": "https://community.brave.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Strava",
+        "base_url": "https://www.strava.com/athletes/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Bugcrowd",
+        "base_url": "https://bugcrowd.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Buzzfeed",
+        "base_url": "https://www.buzzfeed.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "CGTrader",
+        "base_url":"https://www.cgtrader.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "CNET",
+        "base_url":"https://www.cnet.com/profiles/{}/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "CSSBattle",
+        "base_url":"https://cssbattle.dev/player/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title>CSSBattle</title>"
+      },
+      {
+        "name": "CTAN",
+        "base_url":"https://ctan.org/author/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Caddy Community",
+        "base_url":"https://caddy.community/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+       "name": "Car Talk Community",
+        "base_url":"https://community.cartalk.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404 
+      },
+      {
+        "name": "Career.habr",
+        "base_url": "https://career.habr.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Championat",
+        "base_url": "https://www.championat.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Chaos",
+        "base_url": "https://chaos.social/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Chatujme.cz",
+        "base_url": "https://profil.chatujme.cz/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Choice Community",
+        "base_url": "https://choice.community/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Clapper",
+        "base_url": "https://clapperapp.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 400
+      },
+      {
+        "name": "Cloudflare Community",
+        "base_url": "https://community.cloudflare.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "Clubhouse",
+        "base_url": "https://www.clubhouse.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Code Snippet Wiki",
+        "base_url": "https://codesnippets.fandom.com/wiki/User:{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Codeberg",
+        "base_url": "https://codeberg.org/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Codecademy",
+        "base_url": "https://www.codecademy.com/profiles/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "This profile could not be found"
+      },
+      {
+        "name": "Codechef",
+        "base_url": "https://www.codechef.com/users/{}",
+        "follow_redirects": false,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Codeforces",
+        "base_url": "https://codeforces.com/profile/{}",
+        "url_probe": "https://codeforces.com/api/user.info?handles={}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 400
+      },
+      {
+        "name": "Codepen",
+        "base_url": "https://codepen.io/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "Coders Rank",
+        "base_url": "https://profile.codersrank.io/user/{}/",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "not a registered member"
+      },
+      {
+        "name": "Coderwall",
+        "base_url": "https://coderwall.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Codewars",
+        "base_url": "https://www.codewars.com/users/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "ColourLovers",
+        "base_url": "https://www.colourlovers.com/lover/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Coroflot",
+        "base_url": "https://www.coroflot.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Cracked",
+        "base_url": "https://www.cracked.com/members/{}/",
+        "follow_redirects": false,
+        "errorType": "status_code",
+        "errorCode": 302
+      },
+      {
+        "name": "Crevado",
+        "base_url": "https://{}.crevado.com",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Crowdin",
+        "base_url": "https://crowdin.com/profile/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Cryptomator Forum",
+        "base_url": "https://community.cryptomator.org/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Cults3D",
+        "base_url": "https://cults3d.com/en/users/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "CyberDefenders",
+        "base_url": "https://cyberdefenders.org/p/{}",
+        "follow_redirects": false,
+        "errorType": "status_code",
+        "errorCode": 301
+      },
+      {
+        "name": "DMOJ",
+        "base_url": "https://dmoj.ca/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "DailyMotion",
+        "base_url": "https://www.dailymotion.com/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 200
+      },
+      {
+        "name": "Dealabs",
+        "base_url": "https://www.dealabs.com/profile/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 410
+      },
+      {
+        "name": "DeviantART",
+        "base_url": "https://{}.deviantart.com",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Discogs",
+        "base_url": "https://www.discogs.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Eintracht Frankfurt Forum",
+        "base_url": "https://community.eintracht.de/fans/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 500
+      },
+      {
+        "name": "Envato Forum",
+        "base_url": "https://forums.envato.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Exposure",
+        "base_url": "https://{}.exposure.co/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Exophase",
+        "base_url": "https://www.exophase.com/user/{}/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "EyeEm",
+        "url": "https://www.eyeem.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Fameswap",
+        "base_url": "https://fameswap.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "Fanpop",
+        "base_url": "https://www.fanpop.com/fans/{}",
+        "follow_redirects": false,
+        "errorType": "status_code",
+        "errorCode": 302
+      },
+      {
+        "name": "Finanzfrage",
+        "base_url": "https://www.finanzfrage.net/nutzer/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Flightradar24",
+        "base_url": "https://my.flightradar24.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Flipboard",
+        "base_url": "https://flipboard.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Rusfootball",
+        "base_url": "https://www.rusfootball.info/user/{}/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "FortniteTracker",
+        "base_url": "https://fortnitetracker.com/profile/all/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "Freelance.habr",
+        "base_url": "https://freelance.habr.com/freelancers/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Freelancer",
+        "base_url": "https://www.freelancer.com/u/{}",
+        "follow_redirects":true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Freesound",
+        "base_url": "https://freesound.org/people/{}/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "GaiaOnline",
+        "base_url": "https://www.gaiaonline.com/profiles/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "No user ID specified or user does not exist!"
+      },
+      {
+        "name": "Gamespot",
+        "base_url": "https://www.gamespot.com/profile/{}/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "GeeksforGeeks",
+        "base_url": "https://auth.geeksforgeeks.org/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Genius (Artists)",
+        "base_url": "https://genius.com/artists/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Genius (Users)",
+        "base_url": "https://genius.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Gesundheitsfrage",
+        "base_url": "https://www.gesundheitsfrage.net/nutzer/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "GetMyUni",
+        "base_url": "https://www.getmyuni.com/author/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Giant Bomb",
+        "base_url": "https://www.giantbomb.com/profile/{}/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "GitBook",
+        "base_url": "https://{}.gitbook.io/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "GitHub Pages",
+        "base_url": "https://{}.github.io/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Gitea",
+        "base_url": "https://gitea.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Gitee",
+        "base_url": "https://gitee.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "GoodReads",
+        "base_url": "https://www.goodreads.com/{}",
+        "follow_redirects":true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Gradle",
+        "base_url": "https://plugins.gradle.org/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Grailed",
+        "base_url": "https://www.grailed.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Gravatar",
+        "base_url": "http://en.gravatar.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Gumroad",
+        "base_url": "https://{}.gumroad.com/",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Gutefrage",
+        "base_url": "https://www.gutefrage.net/nutzer/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Hackaday",
+        "base_url": "https://hackaday.io/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "HackenProof",
+        "base_url": "https://hackenproof.com/hackers/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 403
+      },
+      {
+        "name": "HackerEarth",
+        "base_url": "https://hackerearth.com/@{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "<title> 404 | HackerEarth</title>"
+      },
+      {
+        "name": "HackerOne",
+        "base_url": "https://hackerone.com/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "HackerRank",
+        "base_url": "https://hackerrank.com/{}",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 200
+      },
+      {
+        "name": "Harvard Scholar",
+        "base_url": "https://scholar.harvard.edu/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Hashnode",
+        "base_url": "https://hashnode.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Houzz",
+        "base_url": "https://houzz.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "HubPages",
+        "base_url": "https://hubpages.com/@{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Hubski",
+        "base_url": "https://hubski.com/user/{}",
+        "follow_redirects": true,
+        "errorType": "errorMsg",
+        "errorMsg": "No such user."
+      },
+      {
+        "name": "IFTTT",
+        "base_url": "https://www.ifttt.com/p/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "IRC-Galleria",
+        "base_url": "https://irc-galleria.net/user/{}",
+        "follow_redirects": false,
+        "errorType": "status_code",
+        "errorCode": 302
+      },
+      {
+        "name": "Icons8 Community",
+        "base_url": "https://community.icons8.com/u/{}",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "Guns.lol",
+        "base_url": "https://guns.lol/{}",
+        "url_probe": "",
+        "follow_redirects": true,
+        "errorType": "unknown",
+        "errorCode": 307
+      },
+      {
+        "name": "OpenAI Community",
+        "base_url": "https://community.openai.com/u/{}",
+        "url_probe": "",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      },
+      {
+        "name": "OMG.lol",
+        "base_url": "https://{}.omg.lol",
+        "url_probe": "",
+        "follow_redirects": true,
+        "errorType": "status_code",
+        "errorCode": 404
+      }
+      ]
+  }
+  
+  

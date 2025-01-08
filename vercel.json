@@ -5,7 +5,7 @@
     },
     "functions": {
     "app/api/search/route.ts": {
-      "includeFiles": "bin/gosearch"
+      "includeFiles": "bin/**"
     }
   }
   }
