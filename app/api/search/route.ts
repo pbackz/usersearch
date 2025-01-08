@@ -3,27 +3,31 @@ import { execFile } from "child_process";
 import { promisify } from "util";
 import { join } from "path";
 import { parseGosearchResults } from "@/lib/parse-results";
+import { copyFileSync } from "fs";
 
 const execFileAsync = promisify(execFile);
 
-// Mark this route as dynamic
 export const dynamic = 'force-dynamic';
 
 export async function POST(req: Request) {
     try {
         const { query } = await req.json();
         
-        // Use path.join for cross-platform compatibility
+        // Prepare paths
         const gosearchPath = join(process.cwd(), "bin", "gosearch");
-
-        // Execute the gosearch binary with the provided query
-        const { stdout, stderr } = await execFileAsync(gosearchPath, [query]);
+        const tmpDataPath = "/tmp/data.json"; // Write data to the writable tmp directory
         
+        // Optionally, copy a default data.json if needed
+        copyFileSync(join(process.cwd(), "data.json"), tmpDataPath);
+        
+        // Run the binary with the tmp directory as the target
+        const { stdout, stderr } = await execFileAsync(gosearchPath, [query, `--output=${tmpDataPath}`]);
+
         if (stderr) {
             return new NextResponse(stderr, { status: 500 });
         }
-
-        // Parse the results
+        
+        // Read the results back from /tmp
         const results = parseGosearchResults(stdout);
         return NextResponse.json(results);
     } catch (error) {
