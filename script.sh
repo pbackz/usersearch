@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-cd gosearch && export PATH=$PATH:$(pwd) && cd ..
+chmod +x bin/*
+export PATH=$PATH:bin/
 npm install
