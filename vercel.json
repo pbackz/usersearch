@@ -1,12 +1,11 @@
 {
     "installCommand": "bash script.sh",
-    "build": {
     "env": {
       "GO_BUILD_FLAGS": "-ldflags '-s -w'"
-    }},
+    },
     "functions": {
-        "api/**/*.ts": {
-            "includeFiles": "bin/gosearch"
-        }
+      "api/**/*.ts": {
+        "includeFiles": "bin/gosearch"
+      }
+    }
   }
-}
