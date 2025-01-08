@@ -5,8 +5,8 @@
       "GO_BUILD_FLAGS": "-ldflags '-s -w'"
     }},
     "functions": {
-    "includeFiles": {
-      "bin/**": {}
-    }
+        "api/**/*.ts": {
+            "includeFiles": "bin/gosearch"
+        }
   }
 }
