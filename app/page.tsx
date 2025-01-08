@@ -13,7 +13,7 @@ export default function Home() {
           Search username
         </h1>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-12">
-          An elegant and simple interface for searching username through the web. Fast, efficient, and completely free.
+          OSINT tool for searching people's digital footprint. Fast, efficient, and completely free.
         </p>
         
         {/* Search Widget */}
