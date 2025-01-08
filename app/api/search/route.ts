@@ -15,13 +15,15 @@ export async function POST(req: Request) {
         
         // Prepare paths
         const gosearchPath = join(process.cwd(), "bin", "gosearch");
+        const tmpGosearchPath = "/tmp/gosearch"; // Copy the binary to the writable tmp directory
         const tmpDataPath = "/tmp/data.json"; // Write data to the writable tmp directory
         
         // Optionally, copy a default data.json if needed
-        copyFileSync(join(process.cwd(), "data.json"), tmpDataPath);
-        
+        copyFileSync(join(process.cwd(), "bin", "gosearch"), tmpGosearchPath);
+        copyFileSync(join(process.cwd(), "bin", "data.json"), tmpDataPath);
+
         // Run the binary with the tmp directory as the target
-        const { stdout, stderr } = await execFileAsync(gosearchPath, [query, `--output=${tmpDataPath}`]);
+        const { stdout, stderr } = await execFileAsync(tmpGosearchPath, [query, `--output=${tmpDataPath}`]);
 
         if (stderr) {
             return new NextResponse(stderr, { status: 500 });
