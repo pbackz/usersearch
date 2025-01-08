@@ -5,6 +5,8 @@
       "GO_BUILD_FLAGS": "-ldflags '-s -w'"
     }},
     "functions": {
-      "includeFiles": "bin/**"
+    "includeFiles": {
+      "bin/**": {}
     }
+  }
 }
