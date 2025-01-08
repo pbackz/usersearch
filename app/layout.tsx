@@ -6,8 +6,8 @@ import Footer from '@/components/ui/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Search Username',
-  description: 'Universal OSINT search engine',
+  title: 'UserSearch',
+  description: 'Universal username OSINT search engine',
 };
 
 export default function RootLayout({
